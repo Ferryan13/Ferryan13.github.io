@@ -1,0 +1,251 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E7F0FF;
+}
+
+/* Navbar Style */
+
+.navbar {
+    z-index: 3;
+}
+
+/* Navbar Color */
+
+.nav-color {
+    background-color: #1c488a;
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+    transition: all ease-in 0.3s; 
+}
+
+* {
+    z-index: 2;
+}
+
+.accesent-img {
+    z-index: 1;
+}
+
+.img-hero {
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.button-secondary {
+    width: 133px;
+    height: 40px;
+    background-color: #ffff;
+    color: #3068BE;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.button-primary {
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: #ffff;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Contact Section */
+
+#contact {
+    background-image: url(../Assest/Image/backround\ about.jpg);
+    margin-top: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact .overlay {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#contact .container {
+    padding: 148px 0 148px 0;
+}
+
+.container h3 {
+    font-weight: 550;
+    font-size: 32px;
+    line-height: 60px;
+    color: #fff;
+    width: 441px;
+}
+
+.container h4 {
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    width: 441px;
+}
+
+.container h5 {
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+    width: 441px;
+}
+
+.container h6 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;  
+    margin: 19px 0 14px 0;
+}
+
+.container p {
+    font-weight:300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    width: 560px;
+}
+
+.container span {
+    font-weight:300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    width: 700px;
+}
+
+#legality h3 {
+    color: #000;
+}
+
+#legality span {
+    font-weight:300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000;
+    width: 700px;
+}
+
+#legality p {
+    font-weight:300;
+    font-size: 16px;
+    line-height: 50px;
+    color: #000;
+    width: 560px;
+}
+
+.kontak a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 18px;
+    width: 332px;
+    display: inline-block;
+}
+
+.linkcitradimas2020 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-contact {
+    width: 100%;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 72px 48px;
+}
+
+.card-contact h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 60px;
+    color: #000;
+    text-align: center;
+}
+
+.card-contact h4 {
+    font-weight: 550;
+    font-size: 21px;
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+    width: 441px;
+}
+
+.form-control {
+    background: #c4c4c4;
+    height: 80px !important;
+    border-radius: 0;
+}
+
+.form-floating label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #717171; 
+}
+
+.button-contact {
+    width: 100%;
+    height: 75px;
+    background: #3068BE;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+
+}
+
+footer {
+    width: 100%;
+    height: 270px;
+    background: #000;
+}
+
+.copyright {
+    bottom: 1%;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+footer a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+
+}
